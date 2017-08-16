@@ -6,6 +6,10 @@ using System.Web.Mvc;
 
 namespace MVC.Controllers
 {
-    public class ComicBooksController : Controller    {
+    public class ComicBooksController : Controller
+    {
+        public string Detail() {
+            return "Hello";
+        }
     }
 }
