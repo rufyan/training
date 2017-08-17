@@ -23,7 +23,7 @@ namespace MVC.Models
         public string CoverImageFileName {
             get {
                 return SeriesTitle.Replace(" ", "-"
-                    .ToLower() + "-" + IssueNumber + ".jpg");
+                    .ToLower()) + "-" + IssueNumber + ".jpg";
             }
         }
     }
